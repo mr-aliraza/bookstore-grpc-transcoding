@@ -1,4 +1,9 @@
+# IDE Editors files
+.idea
+.vscode
+
 # Byte-compiled / optimized / DLL files
+**/__pycache__
 __pycache__/
 *.py[cod]
 *$py.class
@@ -102,6 +107,7 @@ celerybeat.pid
 *.sage.py
 
 # Environments
+**/env
 .env
 .venv
 env/
@@ -127,3 +133,4 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+
